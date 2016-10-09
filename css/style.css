@@ -1,77 +1,93 @@
 body {
-  width: 100%;
-  background-color: #46D6D6;
-  margin: 0px auto;
+	width: 100%;
+	background-color: #46D6D6;
+	margin: 0px auto;
 }
 
 header {
-  width: 100%;
-  padding: 30px 1.9531%;
-  background-color: #fff;
-  box-shadow: 2px;
+	width: 100%;
+	padding: 30px 1.9531%;
+	background-color: #fff;
+	box-shadow: 2px;
 }
 
 ul.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 ul.nav li {
-  float: left;
+	float: left;
 }
 
 ul.nav li a {
-  display: inline-block;
-  color: #000;
-  text-decoration: none;
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 24px;
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 24px;
 }
 
 ul.nav li a:hover {
-  transition: 0.4s;
-  background-color: #46D6D6;
-  color: #fff
+	transition: 0.4s;
+	background-color: #46D6D6;
+	color: #fff
 }
 
 h3 {
-  text-align: center;
-  color: #fff;
-  font-size: 36px;
+	text-align: center;
+	color: #fff;
+	font-size: 36px;
 }
 
 input[type=text] {
-   display: inline-block;
-   margin: auto;
-   width: 90%;
-   border: 1px solid #000;
- }
+	display: inline-block;
+	margin: auto;
+	width: 90%;
+	border: 1px solid #000;
+}
 
 .form {
-  float: left;
-  position: relative;
-  left: 50%;
-}
-.form-fixed {
-  float: left;
-  position: relative;
-  left: -50%;
+	float: left;
+	position: relative;
+	left: 50%;
 }
 
+.form-fixed {
+	float: left;
+	position: relative;
+	left: -50%;
+}
+
+footer {
+  margin: auto;
+	clear: both;
+  width: 100%;
+	padding: 30px;
+	background-color: #fff;
+	box-shadow: 2px;
+}
+
+a[href="https://twhite96.github.io"] {
+	color: #000;
+}
+
+a[href="https://twhite96.github.io"]:hover {
+	color: #46D6D6;
+}
 /* Responsive media queries*/
 
 @media (min-width: 40em) {
-  .form {
-    font-size: 30px;
-  }
+	.form {
+		font-size: 30px;
+	}
 }
 
-
 @media (min-width: 62em) {
-  .form {
-    margin-top: 7rem;
-  }
+	.form {
+		margin-top: 7rem;
+	}
 }
