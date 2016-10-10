@@ -1,7 +1,12 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body {
 	width: 100%;
 	background-color: #46D6D6;
-	margin: 0px auto;
+	margin: 0 0 100px;
 }
 
 header {
@@ -54,7 +59,7 @@ input[type=text] {
 	float: left;
 	position: relative;
 	left: 50%;
-  padding-bottom: 90px;
+	padding-bottom: 150px;
 }
 
 .form-fixed {
@@ -63,12 +68,12 @@ input[type=text] {
 	left: -50%;
 }
 
-footer {
-  margin: auto;
+.footer {
   position: absolute;
+  left: 0;
   bottom: 0;
+  height: 100px;
   width: 100%;
-	padding: 30px;
 	background-color: #fff;
 	box-shadow: 2px;
 }
